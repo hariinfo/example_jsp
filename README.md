@@ -11,5 +11,7 @@ is not actually needed. You may first need to execute `chmod +x mvnw`.
   ./mvnw clean package
   ```
  
-This will generate a file named `jakartaee-hello-world.war`. You should be able to run the application by deploying 
+This will generate a file named `jsp_sample.war`. You should be able to run the application by deploying 
 the file to a [Jakarta EE compatible runtime](https://jakarta.ee/compatibility).
+
+[Access application from the browser](http://localhost:8080/jakartaee-hello-world/hello).
